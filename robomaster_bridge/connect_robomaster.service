@@ -1,0 +1,15 @@
+[Unit]
+Description=Connect Robomaster
+After=docker.service
+Requires=docker.service
+After=systemd-networkd.service
+Requires=systemd-networkd
+
+[Service]
+ExecStartPre=ifconfig can0 txqueuelen 1000
+ExecStart=/usr/bin/docker run --rm --runtime nvidia --network host --hostname robomaster-0 robomaster_can:latest /bin/bash -c ". install/setup.bash && ros2 launch robomaster_can_ros_bridge/launch/bridge.launch.py"
+KillSignal=SIGINT
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
