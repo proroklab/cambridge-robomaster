@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<profiles xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+	<publisher profile_name="publisher_xml_conf_multicast_locators_profile" is_default_profile="true">
+		<qos>
+			<disablePositiveAcks>
+				<enabled>true</enabled>
+				<duration>
+					<sec>1</sec>
+				</duration>
+			</disablePositiveAcks>
+		</qos>
+		<multicastLocatorList>
+			<locator>
+				<udpv4>
+					<address>239.255.0.4</address>
+					<port>7900</port>
+				</udpv4>
+			</locator>
+		</multicastLocatorList>
+	</publisher>
+
+	<subscriber profile_name="subscriber_xml_conf_multicast_locators_profile" is_default_profile="true">
+		<qos>
+			<disablePositiveAcks>
+				<enabled>true</enabled>
+			</disablePositiveAcks>
+		</qos>
+		<multicastLocatorList>
+			<locator>
+				<udpv4>
+					<address>239.255.0.4</address>
+					<port>7900</port>
+				</udpv4>
+			</locator>
+		</multicastLocatorList>
+	</subscriber>
+</profiles>
