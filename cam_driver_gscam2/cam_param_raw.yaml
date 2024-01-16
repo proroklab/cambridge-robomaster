@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    gscam_config: "nvarguscamerasrc sensor-id=0 sensor-mode=1 ! video/x-raw(memory:NVMM),width=1920,height=1080,framerate=60/1' ! nvvidconv ! videoflip method=vertical-flip ! videoconvert"
+    use_gst_timestamps: True
+    camera_name: 'front_camera'
+    frame_id: 'front_camera_frame'

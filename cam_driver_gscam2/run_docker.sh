@@ -1,0 +1,2 @@
+docker run -it --rm --runtime nvidia --net=host --ipc=host --pid=host -v /tmp/argus_socket:/tmp/argus_socket -v /dev/shm:/dev/shm --hostname $(cat /etc/hostname) cam_driver:latest
+#docker run --rm --runtime nvidia --net=host --ipc=host --pid=host -v /tmp/argus_socket:/tmp/argus_socket --hostname $(cat /etc/hostname) robomaster_cam:latest /bin/bash -c ". install/setup.bash && ros2 run gscam2 gscam_main --ros-args --params-file cam_param_raw.yaml -r __ns:=/robomaster_0/camera"

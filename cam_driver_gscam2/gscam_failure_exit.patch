@@ -1,0 +1,14 @@
+diff --git a/src/gscam_node.cpp b/src/gscam_node.cpp
+index 5df6387..e124681 100644
+--- a/src/gscam_node.cpp
++++ b/src/gscam_node.cpp
+@@ -310,6 +310,8 @@ void GSCamNode::impl::process_frame()
+   GstSample * sample = gst_app_sink_pull_sample(GST_APP_SINK(sink_));
+   if (!sample) {
+     RCLCPP_ERROR(node_->get_logger(), "Could not get sample, pause for 1s");
++    delete_pipeline();
++    exit(1);
+     using namespace std::chrono_literals;
+     std::this_thread::sleep_for(1s);
+     return;
+

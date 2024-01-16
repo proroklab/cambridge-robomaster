@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    image_encoding: jpeg
+    #gscam_config: "nvarguscamerasrc sensor-id=0 exposuretimerange='34000 10000000' sensor-mode=1 ! video/x-raw(memory:NVMM),width=1920,height=1080,framerate=60/1' ! nvvidconv ! videoflip method=vertical-flip ! jpegenc quality=95"
+    gscam_config: "nvarguscamerasrc sensor-id=0 sensor-mode=1 ! video/x-raw(memory:NVMM),width=1920,height=1080,framerate=20/1' ! nvvidconv ! videoflip method=vertical-flip ! jpegenc quality=95"
+    use_gst_timestamps: False
+    camera_name: front_camera
+    camera_info_url: file:///opt/robomaster/front_camera.yaml
+    frame_id: front_camera_frame
