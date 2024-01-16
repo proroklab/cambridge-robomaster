@@ -1,6 +1,0 @@
-[Match]
-can0
-
-[Link]
-TransmitQueueLength=1000
-
