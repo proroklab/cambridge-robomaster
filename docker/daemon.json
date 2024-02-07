@@ -1,0 +1,12 @@
+{
+    "runtimes": {
+        "nvidia": {
+            "path": "nvidia-container-runtime",
+            "runtimeArgs": []
+        }
+    },
+    "default-runtime": "nvidia",
+    "insecure-registries": [
+        "10.3.0.3:5000"
+    ]
+}
