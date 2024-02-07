@@ -25,11 +25,19 @@ This may take a while. Reboot after.
 ```
 sudo ./docker/add_group.bash
 sudo ./docker/setup_docker_compose.bash
+sudo cp docker/daemon.json /etc/docker
+sudo service docker restart
 ```
 
 5) Set up CAN
+If not building from scratch, you can pull from the registry:
 ```
-sudo ./robomaster_bridge/install.bash
+docker image pull 10.3.0.3:5000/robomaster_bridge:latest
+```
+
+```
+cd robomaster_bridge
+sudo ./install.bash
 ```
 
 6) Set up cameras
@@ -39,8 +47,14 @@ gst-launch-1.0 -e nvarguscamerasrc sensor-id=0 ! 'video/x-raw(memory:NVMM),width
 ```
 
 Setup:
+If not building from scratch, you can pull from the registry:
 ```
-sudo ./cam_driver/install.bash
+docker image pull 10.3.0.3:5000/cam_driver_dnv:latest
+```
+
+```
+cd cam_driver
+sudo ./install.bash
 ```
 
 7) Adhoc setup
