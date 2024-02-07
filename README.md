@@ -103,3 +103,8 @@ sudo ./install.bash
 ```
 sudo ./adhoc/nmcli.bash
 ```
+
+8) Adding users
+```
+./setup/adduser.bash
+```
