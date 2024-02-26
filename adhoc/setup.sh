@@ -1,5 +1,9 @@
+#!/bin/bash
+host_id=$(echo $(hostname) | sed 's/robomaster-//')
+ip_last_octet=$(($host_id + 2))
+
 ahDevName='wlan1' #we assume all devices use the same device name for ad-hoc interfaces
-ahIp='10.3.2.2'
+ahIp=10.3.2.$ip_last_octet
 networkSSID='roboAdHoc' #can be anything, of no particular consequence
 networkFreq='5200' #2412 or 5200  primary channel frequency (note bandwidths above 20MHz do not use this as a centre frequency; HT40+ 'adds' 20MHz to maximum frequency that would be used in HT20)
 networkChannel='HT20' #[NOHT, HT20, HT40+, 80MHz] set channel bandwidth AND HT/VHT mode. Recommend sticking to HT modes.
