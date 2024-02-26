@@ -87,11 +87,18 @@ sudo ./install.bash
 The cameras can be tested with the following command if logged in on a terminal in non-headless mode (i.e. with a monitor connected):
 ```
 gst-launch-1.0 -e nvarguscamerasrc sensor-id=0 ! 'video/x-raw(memory:NVMM),width=3840,height=2160,framerate=30/1' ! queue ! nvvidconv ! fakesink
+gst-launch-1.0 -e nvarguscamerasrc sensor-id=0 ! 'video/x-raw(memory:NVMM),width=3840,height=2160,framerate=30/1' ! queue ! nvvidconv ! xvimagesink -e
 ```
 
 Setup:
 ```
 cd cam_driver
+sudo ./install.bash
+```
+
+6) Set up UI
+```
+cd ui
 sudo ./install.bash
 ```
 
