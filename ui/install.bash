@@ -7,8 +7,10 @@ if [[ $UID != 0 ]]; then
     exit 1
 fi
 
-echo "Build docker container"
-docker build . -t robomaster_ui:latest
+if [ -z "$(docker images -q robomaster_ui:latest 2> /dev/null)" ]; then
+    echo "Build docker container"
+    docker build . -t robomaster_ui:latest
+fi
 
 echo "Prepare systemd service"
 hostname=$(hostname)

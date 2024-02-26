@@ -71,12 +71,13 @@ sudo cp docker/daemon.json /etc/docker
 sudo service docker restart
 ```
 
-5) Set up CAN
-If not building from scratch, you can pull from the registry:
+Optional: Pull images for CAN, cam and UI:
 ```
-docker image pull 10.3.0.3:5000/robomaster_bridge:latest
+sudo ./docker/pull_images.sh
 ```
+If this step is skipped, the installation commands will build from scratch.
 
+5) Set up CAN
 ```
 cd robomaster_bridge
 sudo ./install.bash
@@ -89,11 +90,6 @@ gst-launch-1.0 -e nvarguscamerasrc sensor-id=0 ! 'video/x-raw(memory:NVMM),width
 ```
 
 Setup:
-If not building from scratch, you can pull from the registry:
-```
-docker image pull 10.3.0.3:5000/cam_driver_dnv:latest
-```
-
 ```
 cd cam_driver
 sudo ./install.bash

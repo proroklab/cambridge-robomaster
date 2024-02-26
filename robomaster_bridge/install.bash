@@ -7,8 +7,10 @@ if [[ $UID != 0 ]]; then
     exit 1
 fi
 
-echo "Build docker container"
-docker build . -t robomaster_bridge:latest
+if [ -z "$(docker images -q robomaster_bridge:latest 2> /dev/null)" ]; then
+    echo "Build docker container"
+    docker build . -t robomaster_bridge:latest
+fi
 
 echo "Prepare system service and config files"
 set +e # read returns 1 by default
