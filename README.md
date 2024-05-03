@@ -2,7 +2,7 @@
 
 This is the source repository containing all information necessary to reproduce the Cambridge RoboMaster platform.
 
-<iframe src="https://drive.google.com/file/d/1jWwP6suwpkOU9ZxwHMxLMfk5RL20GtL8/preview" width="560" height="315" allow="autoplay"></iframe>
+<img align="center" src="https://drive.google.com/uc?export=view&id=1GQjxcqhbU3Vyi9NLeHxNajqnFyemjELS">
 
 Paper: TBD
 
