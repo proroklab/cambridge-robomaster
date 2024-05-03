@@ -1,12 +1,6 @@
 # Supplementary Videos
 On this website, we host a variety of videos showcasing the experiments conducted in the paper.
 
-## Centralized Trajectory Tracking
-TBD
-
-## Decentralized Trajectory Tracking
-TBD
-
 ## VMAS Deployment
 We show the VMAS deployment presented in Figure 7:
 <iframe src="https://drive.google.com/file/d/1jWwP6suwpkOU9ZxwHMxLMfk5RL20GtL8/preview" width="560" height="315" allow="autoplay"></iframe>
