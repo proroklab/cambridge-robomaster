@@ -1,6 +1,7 @@
 ---
-title: Home
-layout: home
+layout: default
+title: Supplementary
+nav_order: 2
 ---
 
 # Supplementary Videos
