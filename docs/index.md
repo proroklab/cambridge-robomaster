@@ -1,3 +1,8 @@
+---
+title: Home
+layout: home
+---
+
 # Supplementary Videos
 On this website, we host a variety of videos showcasing the experiments conducted in the paper.
 
