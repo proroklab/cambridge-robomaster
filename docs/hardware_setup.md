@@ -34,6 +34,7 @@ Common, then for Raspi and Jetson separately
 
 ### Common
 Robot base common, UI
+{% include gallery.html gallery_id="gallery_common_base" gallery_data="gallery_common_base" %}
 
 {% include gallery.html gallery_id="gallery_common_ui_wiring" gallery_data="gallery_robot_common_ui_wiring" %}
 

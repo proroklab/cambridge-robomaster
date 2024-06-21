@@ -1,0 +1,21 @@
+- url: /imgs/instructions/common/base/standoffs.jpeg
+  alt: Component overview
+  description: Overview of components needed.
+- url: /imgs/instructions/common/base/turret_unscrewed.jpeg
+  alt: Turret unscrewed
+  description: Unscrew the four turret screws and set them aside.
+- url: /imgs/instructions/common/base/turret_removed.jpeg
+  alt: Turrte removed
+  description: Remove the turret by disconnecting its two cables from the controller.
+- url: /imgs/instructions/common/base/standoffs_attached.jpeg
+  alt: Standoffs attached
+  description: Screw in the four standoffs in place of the turret.
+- url: /imgs/instructions/common/base/wiring_threading.jpeg
+  alt: Thread wires through
+  description: Take the assembled wire harness and thread through the 2x2 connector through the base to the controller.
+- url: /imgs/instructions/common/base/wiring_close_up.jpeg
+  alt: Connect wires
+  description: Connect the wires to the controller. It is essential that the wire is plugged in correctly, with black and red facing towards the center of the robot. It is possible to plug in the wires four ways, and plugging them in wrong will break the computer.
+- url: /imgs/instructions/common/base/wiring_connected.jpeg
+  alt: Connected wire
+  description: Overview of the base, with four standoffs and wire harness mounted.
