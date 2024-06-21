@@ -1,0 +1,15 @@
+- url: /imgs/instructions/common/crimping/tool_front.jpeg
+  alt: Crimping tool front
+  description: Insert the crimping contact into the tool so that the back is flush with the tool.
+- url: /imgs/instructions/common/crimping/tool_back.jpeg
+  alt: Crimping tool front
+  description: On the other side, the contact should protude from the tool.
+- url: /imgs/instructions/common/crimping/example_good.jpeg
+  alt: Good crimping
+  description: A good crimping contact has a clear separation between the insulation and the contact.
+- url: /imgs/instructions/common/crimping/example_bad_1.jpeg
+  alt: Bad crimping
+  description: A bad crimpting contact has the insulation crimped together with the contact.
+- url: /imgs/instructions/common/crimping/example_bad_2.jpeg
+  alt: Bad crimping
+  description: A bad crimpting contact has the contact crimped too far back.
