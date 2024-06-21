@@ -1,0 +1,12 @@
+- url: /imgs/instructions/common/ui/wiring_new.jpeg
+  alt: Cable
+  description: Find the cable supplied with the display unit.
+- url: /imgs/instructions/common/ui/wiring_cut.jpeg
+  alt: Cable cut
+  description: Cut off one end of the connector and prepare the cut off end of the cable for crimping.
+- url: /imgs/instructions/common/ui/wiring_crimped.jpeg
+  alt: Cable crimped
+  description: Crimp all four wires and find the crimp housing (1x 2, 2x 1).
+- url: /imgs/instructions/common/ui/wiring_crimped_housing.jpeg
+  alt: Cable in housing
+  description: Connect the white and yellow cable to the 2x housing, and the black and red cable to the 1x housing.

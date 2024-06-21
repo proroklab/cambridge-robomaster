@@ -13,7 +13,13 @@ nav_order: 3
 1. TOC
 {:toc}
 
+{% include gallery-styles.html %}
+
 ## RoboMaster Assembly
+
+{% include gallery.html gallery_id="gallery_robot_common_ui_wiring" gallery_data="gallery_robot_common_ui_wiring" %}
+
+{% include gallery.html gallery_id="gallery_robot_common_ui_plate" gallery_data="gallery_robot_common_ui_plate" %}
 
 ## Components
 
@@ -27,3 +33,4 @@ nav_order: 3
 
 ### Wire harness
 
+{% include gallery-scripts.html %}

@@ -1,0 +1,17 @@
+<div id="{{ include.gallery_id }}" class="gallery-container" data-gallery="{{ include.gallery_id }}">
+    <div class="image-counter" id="counter-{{ include.gallery_id }}"></div>
+
+    <!-- Gallery Image list -->
+    {% for image in site.data[include.gallery_data] %}
+    <div class="image-container {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
+        <img src="{{ image.url }}" alt="{{ image.alt }}">
+        <p class="image-description">{{ image.description }}</p>
+    </div>
+    {% endfor %}
+
+    <!-- Navigation buttons container -->
+    <div class="nav-buttons">
+        <button class="nav-button prev-button" onclick="prevImage('{{ include.gallery_id }}')">Previous</button>
+        <button class="nav-button next-button" onclick="nextImage('{{ include.gallery_id }}')">Next</button>
+    </div>
+</div>

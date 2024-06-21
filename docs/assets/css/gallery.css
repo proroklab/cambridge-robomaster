@@ -1,0 +1,53 @@
+/* Basic styling for the gallery */
+.gallery-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+}
+
+.gallery-container img {
+    width: 100%;
+}
+
+.image-container {
+    display: none;
+}
+
+.image-container.active {
+    display: block;
+}
+
+.image-description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Styles for the image counter */
+.image-counter {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Navigation buttons */
+.nav-buttons {
+    position: absolute;
+    top: 50px; /* Adjust this value to set the fixed distance below the counter */
+    right: 10px;
+}
+
+.nav-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}

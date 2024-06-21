@@ -1,0 +1,33 @@
+- url: /imgs/instructions/common/ui/parts_overview.jpeg
+  alt: Parts overview
+  description: Overview of the parts used in the UI assembly.
+- url: /imgs/instructions/common/ui/button_wires_cut.jpeg
+  alt: Wires overview
+  description: Overview of the wires used in the UI assembly.
+- url: /imgs/instructions/common/ui/plate_switch.jpeg
+  alt: Switch in front plate
+  description: Align the front plate so that the rectangular hole is on the left, and the circular hole is on the bottom. Align the switch so that the off-position is on the bottom. Remove protective screen around the switch if necessary. Press the switch into the rectangular hole. Re-attach protective screen on top of the switch (optional).
+- url: /imgs/instructions/common/ui/plate_button.jpeg
+  alt: Button in front plate.
+  description: Turn the front plate on its back. Remove protective screen around the switch if necessary. Unscrew the nut from the button if not already done, and insert it through the front. Then screw the nut back on.
+- url: /imgs/instructions/common/ui/plate_display_standoffs.jpeg
+  alt: Insert display standoffs
+  description: Take two screws and two distance bolts. Remove protective screen around the screw holes if necessary. Mount the distance bolts as indicated with two screws.
+- url: /imgs/instructions/common/ui/plate_display.jpeg
+  alt: Mount display
+  description: Attach the display cable to the display. Mount the display to the front plate on the standoffs.
+- url: /imgs/instructions/common/ui/button_wires_soldered.jpeg
+  alt: Solder wires to button
+  description: Take the wires and remove isolation from one side for soldering. Solder two colored wires to the top pin of the button so that the shorter wire is facing the display, and the longer wire facing upwards. Solder the black wire to the bottom pin.
+- url: /imgs/instructions/common/ui/button_pullup_aligned.jpeg
+  alt: Mound pullup and cut wire
+  description: Take the pullup and cut one end to about 0.5cm length. Solder it to the second pin of the display (counted from top, pin corresponding to the red wire on the display). Cut the shorter cable of the button facing the display so that there is some overlap with the resistor, remove isolation and apply solder it.
+- url: /imgs/instructions/common/ui/button_shrink.jpeg
+  alt: Add heat shrink
+  description: Cut three pieces of heat shrink and put them on both wires of the button and the resistor. Cut the resistor to the appropriate length so that the cable can be soldered on it.
+- url: /imgs/instructions/common/ui/button_wires_crimped.jpeg
+  alt: Crimp button wires
+  description: Apply heated air to all heat shrinks. Cut the wires of the button to a similar length and crimp the endings. Prepare a 2x housing.
+- url: /imgs/instructions/common/ui/button_wires_housing.jpeg
+  alt: Insert into housing
+  description: Insert the button wires into the housing.

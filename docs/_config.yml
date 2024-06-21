@@ -6,3 +6,6 @@ url: https://proroklab.github.io/cambridge-robomaster
 
 aux_links:
   Template Repository: https://github.com/proroklab/cambridge-robomaster
+include:
+  - assets/js
+  - assets/css
