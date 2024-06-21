@@ -1,6 +1,7 @@
 title: "The Cambridge RoboMaster"
 description: "Supplementary Material for The Cambridge RoboMaster: An Agile Multi-Robot Research Platform"
 theme: just-the-docs
+baseurl: "/cambridge-robomaster"
 
 url: https://proroklab.github.io/cambridge-robomaster
 

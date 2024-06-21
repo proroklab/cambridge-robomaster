@@ -4,7 +4,7 @@
     <!-- Gallery Image list -->
     {% for image in site.data[include.gallery_data] %}
     <div class="image-container {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
-        <img src="{{ image.url }}" alt="{{ image.alt }}">
+        <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}">
         <p class="image-description">{{ image.description }}</p>
     </div>
     {% endfor %}
