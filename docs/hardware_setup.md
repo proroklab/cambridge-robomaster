@@ -35,9 +35,9 @@ Common, then for Raspi and Jetson separately
 ### Common
 Robot base common, UI
 
-{% include gallery.html gallery_id="gallery_robot_common_ui_wiring" gallery_data="gallery_robot_common_ui_wiring" %}
+{% include gallery.html gallery_id="gallery_common_ui_wiring" gallery_data="gallery_robot_common_ui_wiring" %}
 
-{% include gallery.html gallery_id="gallery_robot_common_ui_plate" gallery_data="gallery_robot_common_ui_plate" %}
+{% include gallery.html gallery_id="gallery_common_ui_plate" gallery_data="gallery_robot_common_ui_plate" %}
 
 ### Raspberry Pi
 
