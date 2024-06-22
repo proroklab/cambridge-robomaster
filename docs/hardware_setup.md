@@ -43,6 +43,7 @@ Robot base common, UI
 ### Raspberry Pi
 
 ### Jetson
+{% include gallery.html gallery_id="gallery_d131_computer" gallery_data="gallery_d131_computer" %}
 
 
 {% include gallery-scripts.html %}

@@ -1,0 +1,63 @@
+- url: /imgs/instructions/d131/computer/overview_boxes.jpeg
+  alt: Components unboxed
+  description: Find the Jetson Orin, the heatsink and the D131 carrier.
+- url: /imgs/instructions/d131/computer/overview_unboxed.jpeg
+  alt: Unboxing
+  description: Unbox all items. The heatsink and the D131 carrier comes with a set of mounting components.
+- url: /imgs/instructions/d131/computer/jetson_sink_overview.jpeg
+  alt: Jetson heatsink overview
+  description: Unwrap the Jetson Orin and place the heatsink next to it, on its back. Note that the heatsink comes with pre-applied heat paste that must not be wiped. Place the four mounting screws and the mounting bracket next to the heatsink.
+- url: /imgs/instructions/d131/computer/jetson_sink_mounted.jpeg
+  alt: Heatsink on Jetson
+  description: Place the heatsink on the Jetson Orin. Make sure to align it properly, with the groves in the heatsink matching the components on the Jetson Orin. Gently press the heatsink down to make sure it is properly seated.
+- url: /imgs/instructions/d131/computer/jetson_sink_mounted_side.jpeg
+  alt: Heatsink bracket
+  description: Turn the heatsink with Jetson Orin around and place the mounting bracket on top of the heatsink. Make sure to align the bracket with the holes in the heatsink. The bracket is supposed to stand up, as shown, serving as a spring after screwing in.
+- url: /imgs/instructions/d131/computer/jetson_sink_two_screws.jpeg
+  alt: Heatsink bracket screws
+  description: Put down two screws diagonally first. This will make it easier to align the bracket with the heatsink. Then use the remaining two screws to secure the bracket.
+- url: /imgs/instructions/d131/computer/jetson_sink_screwed.jpeg
+  alt: Heatsink bracket screwed
+  description: The heatsink is now secured to the Jetson Orin with all four screws. The bracket should be flush with the heatsink.
+- url: /imgs/instructions/d131/computer/d131_jetson_overview.jpeg
+  alt: Jetson Orin with D131 carrier
+  description: Plase the Jetson Orin next to the D131. Notice how the fan wire is facing to the bottom, but the fan connector on the D131 is on the top side.
+- url: /imgs/instructions/d131/computer/jetson_fan_closeup.jpeg
+  alt: Jetson fan closeup
+  description: Pick up the Jetson Orin and localize the three screws mounting the fan.
+- url: /imgs/instructions/d131/computer/d131_jetson_fan_unscrewed.jpeg
+  alt: Fan unscrewed
+  description: Unscrew the three screws holding the fan in place. Fully remove the fan from the heatsink.
+- url: /imgs/instructions/d131/computer/d131_jetson_fan_unscrewed_rotated.jpeg
+  alt: Fan rotated
+  description: Rotate the fan 180 degrees.
+- url: /imgs/instructions/d131/computer/jetson_fan_rotated_loose.jpeg
+  alt: Fan loosely in place
+  description: Put the fan back into the heatsink. Thread the wire through the third fin hole from the left, then place it fully back into the hole, aligning it with the three screw holes. No force is needed to align the fan, it should fall into place.
+- url: /imgs/instructions/d131/computer/d131_jetson_fan_rotated_mounted.jpeg
+  alt: Fan mounted
+  description: Screw the fan back into place with the three screws previously removed.
+- url: /imgs/instructions/d131/computer/d131_jetson_screws_overview.jpeg
+  alt: Jetson in D131 carrier
+  description: Place the Jetson Orin into the D131 carrier. Connect the fan wire to the connector on the D131. Find the bag with the mounting components delivered with the D131 carrier.
+- url: /imgs/instructions/d131/computer/d131_jetson_screws_overview_unpacked.jpeg
+  alt: Mounting components
+  description: The bag should contain two kinds of two small screws each, four M3 screws, four plastic distance bolts and a green connector for the CAN bus.
+- url: /imgs/instructions/d131/computer/d131_jetson_screws_components_overview.jpeg
+  alt: SSD, WiFi and antennas
+  description: Find the SSD, the WiFi module and the antennas.
+- url: /imgs/instructions/d131/computer/d131_jetson_screwed.jpeg
+  alt: Jetson screwing
+  description: Find the two small screws with a rounded head, and screw the Jetson Orin in place. Place the CAN bus connector in the designated slot.
+- url: /imgs/instructions/d131/computer/d131_jetson_ssd_placed.jpeg
+  alt: SSD placement
+  description: Place the SSD into the designated slot on the D131 carrier.
+- url: /imgs/instructions/d131/computer/d131_jetson_ssd_screwed.jpeg
+  alt: SSD screwed
+  description: Screw in the SSD with one of the small screws with a flat head.
+- url: /imgs/instructions/d131/computer/d131_jetson_wifi_placed.jpeg
+  alt: WiFi placement
+  description: Turn the D131 carrier around and place the WiFi module into the designated slot.
+- url: /imgs/instructions/d131/computer/d131_jetson_wifi_screwed_antennas.jpeg
+  alt: Finished assembly
+  description: Screw in the WiFi module with the remaining small screw with a flat head. Connect the antennas to the WiFi module. The compute unit is now fully assembled.
