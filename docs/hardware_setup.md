@@ -32,6 +32,8 @@ Common, then for Raspi and Jetson separately
 
 {% include gallery.html gallery_id="gallery_d131_wiring" gallery_data="gallery_d131_wiring" %}
 
+{% include gallery.html gallery_id="gallery_raspi_wiring" gallery_data="gallery_raspi_wiring" %}
+
 ## Robot
 
 ### Common

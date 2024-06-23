@@ -1,0 +1,27 @@
+- url: /imgs/instructions/raspi/wiring/wiring_schema_raspi.jpg
+  alt: Wiring schema
+  description: In the configuration with the Jetson Orin, the 12V is directly fed to the D131 carrier, interruptible with a power switch.
+- url: /imgs/instructions/raspi/wiring/dcdc_out_cables_housing.jpeg
+  alt: Power supply cable
+  description: Take the two short black and red cables. Isolate and crimp both and insert them into the 2x1 housing.
+- url: /imgs/instructions/raspi/wiring/positive.jpeg
+  alt: Positve cable
+  description: Take the short red cable and crimp one end to the power switch connector.
+- url: /imgs/instructions/raspi/wiring/dcdc_plain.jpeg
+  alt: DC/DC converter
+  description: Take the DC/DC converter and connect the bridge on the right right, as well as the resistor, as indicated in the picture.
+- url: /imgs/instructions/raspi/wiring/dcdc_cables_layouted.jpeg
+  alt: Camponents arranged
+  description: Arrange all components as indicated.
+- url: /imgs/instructions/raspi/wiring/dcdc_shrink_before.jpeg
+  alt: DC/DC soldering
+  description: Cut all wires to the appropriate length and isolate the endings. Solder the 12V lines coming in from the RoboMaster to the left side of the DC/DC converter, and the 5V lines going out to the right side. Apply a large piece of heat shrink tubing to the converter.
+- url: /imgs/instructions/raspi/wiring/can_signal_housing.jpeg
+  alt: CAN signal housing
+  description: Cut the yellow and green cable to a similar length, crimp the endings and insert them into the 2x1 housing.
+- url: /imgs/instructions/raspi/wiring/all_connected.jpeg
+  alt: Wiring connected
+  description: This is what the harness looks like after soldering and connecting all wires.
+- url: /imgs/instructions/raspi/wiring/dcdc_shrink_after.jpeg
+  alt: Heat shrink applied
+  description: Pull the heat shrink over the DC/DC converter and apply heat with a hot air gun.
