@@ -30,6 +30,8 @@ Information on crimping
 Common, then for Raspi and Jetson separately
 {% include gallery.html gallery_id="gallery_common_wiring" gallery_data="gallery_common_wiring" %}
 
+{% include gallery.html gallery_id="gallery_d131_wiring" gallery_data="gallery_d131_wiring" %}
+
 ## Robot
 
 ### Common

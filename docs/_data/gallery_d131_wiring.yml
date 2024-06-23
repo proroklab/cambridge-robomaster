@@ -1,0 +1,24 @@
+- url: /imgs/instructions/d131/wiring/wiring_schema_jetson.jpg
+  alt: Wiring schema
+  description: In the configuration with the Jetson Orin, the 12V is directly fed to the D131 carrier, interruptible with a power switch.
+- url: /imgs/instructions/d131/wiring/negatives_cut.jpeg
+  alt: Negative wires
+  description: Isolate the black cable coming from the Jetson as well as the short black cable to ca. 5mm.
+- url: /imgs/instructions/d131/wiring/negatives_crimped.jpeg
+  alt: Negative wires crimped
+  description: Both black cables are crimped together into a single crimp contact connecting to the D131 power jack.
+- url: /imgs/instructions/d131/wiring/positive.jpeg
+  alt: Positive wire crimped
+  description: The short red cable is crimped to the D131 power jack on one side and to the power switch connector on the other side.
+- url: /imgs/instructions/d131/wiring/cables_outside_housing.jpeg
+  alt: Power wires D131 jack
+  description: Insert the black and red cable into the D131 power jack housing (bottom two holes as seen in this picture).
+- url: /imgs/instructions/d131/wiring/cables_inside_housing.jpeg
+  alt: Power wires D131 jack inserted
+  description: This is what the power jack looks like with the cables inserted.
+- url: /imgs/instructions/d131/wiring/can_header.jpeg
+  alt: CAN header
+  description: Weave the short black cable coming from the D131 power jack together with the green and yellow cable coming from the RoboMaster. Cut all three cables to the same length and isolate 8mm. Crimp the ferrules to the three wires.
+- url: /imgs/instructions/d131/wiring/all_connected.jpeg
+  alt: Finished harness
+  description: The wire harness is completed.
