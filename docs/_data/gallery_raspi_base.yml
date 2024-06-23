@@ -1,0 +1,39 @@
+- url: /imgs/instructions/raspi/base/wire_harness.jpeg
+  alt: Wire harness
+  description: Start by laying out the wire harness. The two red wires should be together between the two topmost distance bolts. The power supplt and CAN connectors should both be between the opposite distance bolts. If the cables are too long, tuck them into the hole of the base unit as appropriate.
+- url: /imgs/instructions/raspi/base/components_overview.jpeg
+  alt: Component overview
+  description: Overview of components used in the base assembly.
+- url: /imgs/instructions/raspi/base/bolts_mounted.jpeg
+  alt: Bolt mounting
+  description: Mount the four 17mm and four 10mm bolts to the base plate, as indicated, using M3 screws to fixate them.
+- url: /imgs/instructions/raspi/base/bolts_mounted_closeup.jpeg
+  alt: Close up of bolt mounting
+  description: The four shorter bolts serve mounting the Raspberry Pi, the four longer bolts serve mounting the UI unit.
+- url: /imgs/instructions/raspi/base/raspi_mounted.jpeg
+  alt: Raspberry Pi mounted
+  description: Mount the Raspberry Pi on top of the four 10mm bolts using M3 screws. The holes of the Raspberry Pi might have to be drilled out to fit the M3 screws.
+- url: /imgs/instructions/raspi/base/base_raspi_mounted.jpeg
+  alt: Raspberry Pi mounted on base
+  description: Use the four M4 screws originally used to mount the turret on the RoboMaster to fixate the base plate. Make sure the cables are aligned as indicated. Attach the CAN hat.
+- url: /imgs/instructions/raspi/wiring/wiring_schema_raspi.jpg
+  alt: Wiring schema
+  description: To recall, this is the wiring schema for the Raspberry Pi.
+- url: /imgs/instructions/raspi/base/can_hat_wiring.jpeg
+  alt: CAN hat wiring
+  description: Attach the power supply line and CAN line to the CAN hat as indicated.
+- url: /imgs/instructions/raspi/base/ui_unit_overview.jpeg
+  alt: UI unit components
+  description: Overview of components used in the UI unit assembly.
+- url: /imgs/instructions/raspi/base/base_raspi_bolts.jpeg
+  alt: Long distance bolts
+  description: Attach the four 35mm distance bolts to the distance bolts on the base.
+- url: /imgs/instructions/raspi/base/can_hat_wiring_ui.jpeg
+  alt: UI unit wiring
+  description: Connect all UI unit wires as indicated.
+- url: /imgs/instructions/raspi/base/ui_switch_wiring.jpeg
+  alt: Switch wiring
+  description: Tightly press the switch wires into the switch connectors. Make sure the connectors are flush with the switch.
+- url: /imgs/instructions/raspi/base/finished.jpeg
+  alt: Finished assembly
+  description: The finished assembly should look like this.

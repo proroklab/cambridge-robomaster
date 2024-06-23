@@ -45,6 +45,7 @@ Robot base common, UI
 {% include gallery.html gallery_id="gallery_common_ui_plate" gallery_data="gallery_common_ui_plate" %}
 
 ### Raspberry Pi
+{% include gallery.html gallery_id="gallery_raspi_base" gallery_data="gallery_raspi_base" %}
 
 ### Jetson
 {% include gallery.html gallery_id="gallery_d131_computer" gallery_data="gallery_d131_computer" %}
