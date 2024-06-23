@@ -50,5 +50,6 @@ Robot base common, UI
 ### Jetson
 {% include gallery.html gallery_id="gallery_d131_computer" gallery_data="gallery_d131_computer" %}
 
+{% include gallery.html gallery_id="gallery_d131_base" gallery_data="gallery_d131_base" %}
 
 {% include gallery-scripts.html %}

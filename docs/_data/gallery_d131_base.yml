@@ -1,0 +1,27 @@
+- url: /imgs/instructions/d131/base/components_overview.jpeg
+  alt: Components overview
+  description: Overview of components used in the base assembly.
+- url: /imgs/instructions/d131/base/bolts_mounted.jpeg
+  alt: Bolt mounting
+  description: Mount the four 17mm bolts to the base plate, as indicated, using M3 screws to fixate them.
+- url: /imgs/instructions/d131/base/bolts_mounted_closeup.jpeg
+  alt: Bolts mounted closeup
+  description: The four bolts are mounted to the four outermost mounting holes.
+- url: /imgs/instructions/d131/base/can_wiring_fixed.jpeg
+  alt: CAN wiring fixed
+  description: Screw in the ferrules of the CAN wires to the CAN header of the D131 carrier.
+- url: /imgs/instructions/d131/base/wire_harness_laid_out.jpeg
+  alt: Wire harness laid out
+  description: Organize the wire harness so that the two red wires are between the two topmost distance bolts, the power supply are between the opposite distance bolts and the CAN connector between the two right distance bolts. If the cables are too long, tuck them into the hole of the base unit as appropriate.
+- url: /imgs/instructions/d131/base/wires_threaded_aligned.jpeg
+  alt: Wire threading and alignment
+  description: Thread through the two red wires through the hole on the top of the base plate. Align the power connector so that it fits into the cutout on the bottom of the plate.
+- url: /imgs/instructions/d131/base/base_plate_screwed.jpeg
+  alt: Base plate screwed
+  description: Use the four M4 screws originally used to mount the turret on the RoboMaster to fixate the base plate. Make sure the cables are aligned as indicated.
+- url: /imgs/instructions/d131/base/base_plate_jetson_power.jpeg
+  alt: Connecting Jetson power
+  description: Connect the power supply to the D131 carrier first, as indicated.
+- url: /imgs/instructions/d131/base/jetson_connected_bolts.jpeg
+  alt: Jetson connected
+  description: Flip down the carrier board and align the mounting holes with the four 17mm bolts. Fixate the carrier board with four 35mm bolts. Connect the CAN connector to the D131 carrier.
