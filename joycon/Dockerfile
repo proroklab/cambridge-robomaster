@@ -8,9 +8,10 @@ WORKDIR /opt/robomaster/src
 RUN git clone -b ros2 https://github.com/ros-drivers/joystick_drivers.git
 # Commit b169c12768fd39fedda65bb34e0db057ccb0d13f
 RUN git clone -b ros2 https://github.com/ros/diagnostics.git
+RUN git clone -b humble https://github.com/ros2/launch.git
 WORKDIR /opt/robomaster
 
-RUN . /opt/ros/humble/install/setup.sh && rosdep install -y --from-paths . --ignore-src
+RUN . /opt/ros/humble/install/setup.sh && rosdep install -y --from-paths . --ignore-src --rosdistro humble
 RUN . /opt/ros/humble/install/setup.sh && colcon build --symlink-install
 
 COPY cyclone_dds_profile_base.xml /opt/robomaster
