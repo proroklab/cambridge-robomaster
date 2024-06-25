@@ -18,6 +18,30 @@ nav_order: 5
 
 ## Wire harness
 
+| Component                | Description                          | Quantity |
+|--------------------------|--------------------------------------|----------|
+| Yellow wire AWG 24 45 cm | CAN L wire base to D131              | 1        |
+| Green wire AWG 24 45 cm  | CAN H wire base to D131              | 1        |
+| Black wire AWG 20 30 cm  | GND wire base to D131                | 1        |
+| Red wire AWG 20 30 cm    | 12V wire base to power switch        | 1        |
+| Black wire AWG 24 15 cm  | GND wire D131 Jack to D131 CAN       | 1        |
+| Red wire AWG 24 15 cm    | 12 wire power switch to D131 jack    | 1        |
+| Quick connect            | Quick connect crimp for power switch | 2        |
+| 2x2 ATX crimp housing    | D131 power jack crimp housing        | 1        |
+| ATX crimp contacts       | D131 power jack crimp contacts       | 2        |
+| AWG 24 Ferrules          | CAN Ferrules                         | 3        |
+| Harwin 2x2 crimp housing | For CAN base                         | 1        |
+| Harwin crimp contacts    | For CAN base                         | 4        |
+
+| Tool                        | Description                 |
+|-----------------------------|-----------------------------|
+| Diagonal pliers             | To cut the cable            |
+| Wire stripper               | To isolate the wire strands |
+| Crimping tool Harwin        | Harwin wire crimper         |
+| Crimping tool ATX           | ATX-style wire crimper      |
+| Crimping tool Ferrules      | Ferrule crimper             |
+| Crimping tool quick connect | Quick connect crimper       |
+
 {% include gallery.html gallery_id="gallery_d131_wiring" gallery_data="gallery_d131_wiring" %}
 
 ## Robot
