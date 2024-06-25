@@ -10,18 +10,27 @@
 - url: /imgs/instructions/d131/base/can_wiring_fixed.jpeg
   alt: CAN wiring fixed
   description: Screw in the ferrules of the CAN wires to the CAN header of the D131 carrier.
-- url: /imgs/instructions/d131/base/wire_harness_laid_out.jpeg
-  alt: Wire harness laid out
-  description: Organize the wire harness so that the two red wires are between the two topmost distance bolts, the power supply are between the opposite distance bolts and the CAN connector between the two right distance bolts. If the cables are too long, tuck them into the hole of the base unit as appropriate.
-- url: /imgs/instructions/d131/base/wires_threaded_aligned.jpeg
-  alt: Wire threading and alignment
-  description: Thread through the two red wires through the hole on the top of the base plate. Align the power connector so that it fits into the cutout on the bottom of the plate.
 - url: /imgs/instructions/d131/base/base_plate_screwed.jpeg
   alt: Base plate screwed
-  description: Use the four M4 screws originally used to mount the turret on the RoboMaster to fixate the base plate. Make sure the cables are aligned as indicated.
+  description: Organize the wire harness so that the two red wires are between the two topmost distance bolts, the power supply are between the opposite distance bolts and the CAN connector between the two right distance bolts. If the cables are too long, tuck them into the hole of the base unit as appropriate. Thread through the two red wires through the hole on the top of the base plate. Align the D131 power jack connector so that it fits into the cutout on the other end of the base plate. Screw in the base plate with the four M4 screws originally used to mount the turret on the RoboMaster.
+- url: /imgs/instructions/d131/base/base_plate_screwed_closeup.jpeg
+  alt: Base plate screwed close up
+  description: Close up of the mounted base plate.
+- url: /imgs/instructions/d131/base/ui_assembly_connected_closeup.jpeg
+  alt: Connect UI assembly
+  description: Connect the UI assembly to the D131 carrier board.
+- url: /imgs/instructions/d131/base/ui_assembly_connected.jpeg
+  alt: Connected UI assembly
+  description: Connected UI assembly.
 - url: /imgs/instructions/d131/base/base_plate_jetson_power.jpeg
   alt: Connecting Jetson power
   description: Connect the power supply to the D131 carrier first, as indicated.
 - url: /imgs/instructions/d131/base/jetson_connected_bolts.jpeg
   alt: Jetson connected
   description: Flip down the carrier board and align the mounting holes with the four 17mm bolts. Fixate the carrier board with four 35mm bolts. Connect the CAN connector to the D131 carrier.
+- url: /imgs/instructions/d131/base/ui_wire_layout.jpeg
+  alt: Wire routing
+  description: Connect the quick connector to the power switch. This may take some force to ensure a proper seat (they should reach all the way to the button). Route the wires coming from the UI assembly as indicated.
+- url: /imgs/instructions/d131/base/finished.jpeg
+  alt: Finished robot assembly
+  description: The robot is now fully assembled.
