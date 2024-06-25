@@ -1,6 +1,27 @@
 - url: /imgs/instructions/raspi/wiring/wiring_schema_raspi.jpg
   alt: Wiring schema
   description: In the configuration with the Jetson Orin, the 12V is directly fed to the D131 carrier, interruptible with a power switch.
+- url: /imgs/instructions/raspi/wiring/components.jpeg
+  alt: Wiring components overview
+  description: Overview of the wires and components used in the UI assembly.
+- url: /imgs/instructions/raspi/wiring/plain_cables_cut.jpeg
+  alt: Cable isolation removed
+  description: Remove the cable isolation on one end to prepare for crimping.
+- url: /imgs/instructions/raspi/wiring/plain_cables_crimped.jpeg
+  alt: Cable crimping
+  description: Crimp the four cables according.
+- url: /imgs/instructions/raspi/wiring/negative_housing.jpeg
+  alt: Cable housing insertion black
+  description: Insert the cables into the 2x2 housing. Start with the black cable at pin 1, indicated by the arrow. It is important to inser the cable with the correct orientation.
+- url: /imgs/instructions/raspi/wiring/all_housing.jpeg
+  alt: Cable housing insertion remaining
+  description: Insert the remaining cables.
+- url: /imgs/instructions/raspi/wiring/positive_cut.jpeg
+  alt: Red cable crimping
+  description: Isolate the end of the red cable and crimp the switch contact.
+- url: /imgs/instructions/raspi/wiring/all_weaved.jpeg
+  alt: Cable weaving
+  description: Weave the black, yellow and green cable.
 - url: /imgs/instructions/raspi/wiring/dcdc_out_cables_housing.jpeg
   alt: Power supply cable
   description: Take the two short black and red cables. Isolate and crimp both and insert them into the 2x1 housing.
