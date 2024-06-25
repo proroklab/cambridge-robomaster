@@ -15,7 +15,15 @@ nav_order: 6
 
 ## Flashing
 
-Differing procedure for Jetson vs Raspberry Pi.
+Flash the BSP following the instructions of the BSP Readme.
+
+After flashing has succeeded, connect via USB to the Jetson and power it on. The Jetson should boot up and appear as USB to Ethernet device on the host computer, assigning an IP to the host. Try pinging `ping 192.168.55.1` to verify the connection.
+
+Copy the SSH keys of the host to the Jetson by running `ssh-copy-id nvidia@192.168.55.1`. The password will be prompted, which is `nvidia`. This skip can be skipped, in that case the passowrd needs to be entered every time the SSH connection is established.
+
+Next, we copy the content of this folder to the Jetson. This can be accomplished by running `copy_to_jetson_initial.bash` from the root of the repository.
+
+Now, SSH into the Jetson by running `ssh nvidia@192.168.55.1`. Change the directory to the `Robot` folder, and follow the instructions below.
 
 General information Jetsons:
 User nvidia, password nvidia
