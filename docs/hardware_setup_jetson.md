@@ -95,8 +95,30 @@ First, we assemble the I2C connection cable. Then, we assemble the rest of the U
 | WiFi Antenna           | WiFi antenna for Intel module                          | 2        |
 | SSD                    | SSD M2 256 GB                                          | 1        |
 
+| Tool           | Description                            |
+|----------------|----------------------------------------|
+| Torx T6        | To screw in the Jetson mounting screws |
+| Small Phillips | To unscrew fan                         |
+
+{% include gallery.html gallery_id="gallery_d131_jetson" gallery_data="gallery_d131_jetson" %}
+
 {% include gallery.html gallery_id="gallery_d131_computer" gallery_data="gallery_d131_computer" %}
 
 ### Robot
+
+| Component                | Description                                     | Quantity |
+|--------------------------|-------------------------------------------------|----------|
+| Compute unit             | Assembled D131 carrier and Jetson               | 1        |
+| Base plate               | Lasercut base plate                             | 1        |
+| M3x17 F/F distance bolts | To mount the compute unit on the base plate     | 4        |
+| M3x35 M/F distance bolts | To mount the UI unit on the compute unit        | 4        |
+| M3x10 screws             | Screws to mount distance bolts                  | 4        |
+| M4 screws                | Screws that originally held the turret in place | 4        |
+
+| Tool                   | Description                                                          |
+|------------------------|----------------------------------------------------------------------|
+| Small slot screwdriver | To screw in the CAN wires into the CAN header                        |
+| Torx screwdriver       | Screwdriver coming with the RoboMaster, to mount the M4 screws       |
+| Pliers                 | To hold distance bolts in palce or mount the power switch connectors |
 
 {% include gallery.html gallery_id="gallery_d131_base" gallery_data="gallery_d131_base" %}
