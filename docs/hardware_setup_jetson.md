@@ -18,8 +18,6 @@ nav_order: 5
 
 ## Wire harness
 
-{% include gallery.html gallery_id="gallery_common_wiring" gallery_data="gallery_common_wiring" %}
-
 {% include gallery.html gallery_id="gallery_d131_wiring" gallery_data="gallery_d131_wiring" %}
 
 ## Robot

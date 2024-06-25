@@ -1,24 +1,48 @@
 - url: /imgs/instructions/d131/wiring/wiring_schema_jetson.jpg
   alt: Wiring schema
   description: In the configuration with the Jetson Orin, the 12V is directly fed to the D131 carrier, interruptible with a power switch.
-- url: /imgs/instructions/d131/wiring/negatives_cut.jpeg
-  alt: Negative wires
-  description: Isolate the black cable coming from the Jetson as well as the short black cable to ca. 5mm.
-- url: /imgs/instructions/d131/wiring/negatives_crimped.jpeg
-  alt: Negative wires crimped
-  description: Both black cables are crimped together into a single crimp contact connecting to the D131 power jack.
-- url: /imgs/instructions/d131/wiring/positive.jpeg
+- url: /imgs/instructions/d131/wiring/overview.jpeg
+  alt: Wiring components overview
+  description: Overview of the wires and components used wire harness assembly.
+- url: /imgs/instructions/d131/wiring/base_wire_overview.jpeg
+  alt: Base wires
+  description: Start by finding the four long cables, four crimp connectors and the 2x2 crimp housing.
+- url: /imgs/instructions/d131/wiring/base_wire_crimped.jpeg
+  alt: Cable crimping
+  description: Remove the cable isolation on one end and crimp the four cables.
+- url: /imgs/instructions/d131/wiring/base_wire_negative_housing.jpeg
+  alt: Cable housing insertion black
+  description: Insert the cables into the 2x2 housing. Start with the black cable at pin 1, indicated by the arrow. It is important to insert the cable with the correct orientation.
+- url: /imgs/instructions/d131/wiring/base_wire_all_housing.jpeg
+  alt: Cable housing insertion remaining
+  description: Insert the remaining cables.
+- url: /imgs/instructions/d131/wiring/positive_wire_crimped.jpeg
   alt: Positive wire crimped
   description: The short red cable is crimped to the D131 power jack on one side and to the power switch connector on the other side.
-- url: /imgs/instructions/d131/wiring/cables_outside_housing.jpeg
-  alt: Power wires D131 jack
-  description: Insert the black and red cable into the D131 power jack housing (bottom two holes as seen in this picture).
-- url: /imgs/instructions/d131/wiring/cables_inside_housing.jpeg
-  alt: Power wires D131 jack inserted
-  description: This is what the power jack looks like with the cables inserted.
-- url: /imgs/instructions/d131/wiring/can_header.jpeg
-  alt: CAN header
-  description: Weave the short black cable coming from the D131 power jack together with the green and yellow cable coming from the RoboMaster. Cut all three cables to the same length and isolate 8mm. Crimp the ferrules to the three wires.
-- url: /imgs/instructions/d131/wiring/all_connected.jpeg
+- url: /imgs/instructions/d131/wiring/power_wire_cut.jpeg
+  alt: Power cable cut
+  description: Find the power jack crimp contacts. Isolate the end of the short and long black cable.
+- url: /imgs/instructions/d131/wiring/power_wire_crimped.jpeg
+  alt: Power wires crimped
+  description: Both black cables are crimped together into a single crimp contact connecting to the D131 power jack. Align the short positive and the two black crimped cables with the power jack housing and insert them in the bottom two holes.
+- url: /imgs/instructions/d131/wiring/wire_assembly_crimped.jpeg
+  alt: Crimped wire assembly
+  description: After crimping all wires, this is what the assembly looks like.
+- url: /imgs/instructions/d131/wiring/base_wire_weaving.jpeg
+  alt: Wire weaving
+  description: Weave the black, yellow and green cable together. Do not weave in the red cable.
+- url: /imgs/instructions/d131/wiring/power_jack_weaving.jpeg
+  alt: Power jack weaving
+  description: Continue the weaving towards the power jack, incorporating the short black wire.
+- url: /imgs/instructions/d131/wiring/can_wire_weaving.jpeg
+  alt: CAN wire weaving
+  description: Weave the black, yellow and green cable together towards the end.
+- url: /imgs/instructions/d131/wiring/can_wire_cut.jpeg
+  alt: CAN wire cut
+  description: Cut the wires to a similar length, isolate the ends and find the ferrules.
+- url: /imgs/instructions/d131/wiring/can_wire_crimped.jpeg
+  alt: CAN wire crimped
+  description: Crimp the ferrules to the three wires.
+- url: /imgs/instructions/d131/wiring/finished.jpeg
   alt: Finished harness
   description: The wire harness is completed.
