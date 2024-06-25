@@ -24,7 +24,7 @@ User nvidia, password nvidia
 Allow NVIdia user to use sudo without password, modify /etc/hostname to the new hostname, then reboot
 ```
 sudo ./setup/sudocfg.bash
-sudo nano /etc/hostname
+sudo vim /etc/hostname
 >robomaster-1
 sudo reboot
 ```
