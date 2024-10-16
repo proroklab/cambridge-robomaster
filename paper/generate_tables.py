@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-from adjustText import adjust_text
 
 plt.rcParams.update(
     {
@@ -105,7 +104,6 @@ def generate_figure(df):
 
     ax_legend.axis("off")
     fig.tight_layout()
-    #adjust_text(texts, df.max_vel, df.price, ax=ax, arrowprops=dict(arrowstyle="-", color='gray', lw=0.5), only_move='x+')
     plt.savefig('robot_comparison.pgf', bbox_inches="tight", pad_inches=0)
     plt.show()
 
