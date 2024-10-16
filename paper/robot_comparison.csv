@@ -1,0 +1,72 @@
+brand,product,mode,url,datasheet,price,price_estimate,max_vel,width,length,height,robot_type,n_robots,commercial,paper_include,paper,pareto_frontier,pareto_frontier_wo_drones,open_design,mass,bibtex,year,runtime,payload
+Cambridge,Minicars,Ackermann,https://ieeexplore.ieee.org/document/8794445,,76.5,FALSE,0.7,81,197,75,multi,,FALSE,TRUE,Minicars: A Fleet of Miniature Cars for Experiments in Cooperative Driving,1,1,TRUE,0.5,hyldmar_fleet_2019,2017,2.2,
+Amazon,Deepracer,Ackermann,https://ieeexplore.ieee.org/abstract/document/9197465,,400,FALSE,2.3,300,200,200,single,1,TRUE,TRUE,DeepRacer: Autonomous Racing Platform for Experimentation with Sim2Real Reinforcement Learning,,,TRUE,2.5,balaji_deepracer_2020,2020,0.75,
+MIT,MIT Racecar,Ackermann,http://lis.csail.mit.edu/pubs/anders-isec-17.pdf ,,1060,TRUE,2.5,324,535,206,single,1,FALSE,TRUE,"Project-based, Collaborative, Algorithmic Robotics for High SchoolStudents: Programming Self-driving Race Cars at MIT",,,TRUE,3.5,karaman_project-based_2017,2017,0.5,
+Berkeley,BARC,Ackermann,https://www.taylorfrancis.com/chapters/edit/10.1201/9781315265285-121/autonomous-drifting-onboard-sensors-gonzales-zhang-li-borrelli,,840,TRUE,2.5,324,535,206,single,1,FALSE,TRUE,Berkeley Autonomous Race Car (BARC): Autonomous drifting with onboard sensors,,,TRUE,3.5,gonzales_autonomous_2016,2016,0.5,
+Agilex,Titan,Ackermann,https://global.agilex.ai/chassis/15,https://en.new.agilex.ai/raw/upload/20231222/TITAN%20User%20Manual%202023.12_50788.pdf,20000,FALSE,3,1550,980,710,single,1,TRUE,TRUE,,,,FALSE,280,agilex_titan_agilex_2024,,5,300
+ETH,ORCA,Ackermann,https://arxiv.org/abs/1711.07300,,470,TRUE,3,80,120,60,single,1,FALSE,TRUE,ETH Racecar: Optimization-Based Autonomous Racing of 1:43 Scale RC Cars,3,3,TRUE,0.5,liniger_optimization-based_2015,2015,0.3,
+Agilex,Hunter SE,Ackermann,https://global.agilex.ai/chassis/9,,6700,FALSE,4.8,640,820,310,single,1,TRUE,TRUE,,,4,FALSE,42,agilex_hunter_agilex_2024,,2.5,
+GeorgiaTech,AutoRally,Ackermann,https://ieeexplore.ieee.org/document/7487277,,9210,TRUE,8,500,900,200,single,1,FALSE,TRUE,GATech AutoRally: Aggressive Driving with Model Predictive Path Integral Control,,5,TRUE,22,williams_aggressive_2016,2016,1,
+EPFL,Alice,Differential,https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/82555/1/eth-8219-01.pdf,,150,TRUE,0.04,22,21,20,multi,,FALSE,TRUE,Design and Control of the Mobile Micro Robot Alice,,,,0.01,caprari_design_2003,2003,10,0
+Northwestern,Coachbot 2,Differential,https://ieeexplore.ieee.org/document/9000788,,200,TRUE,0.05,50,50,120,multi,100,FALSE,TRUE,Shape Formation in Homogeneous Swarms Using Local Task Swapping,,,,0.08,wang_shape_2020,,,
+Manchester Uni,Mona,Differential,https://link.springer.com/article/10.1007/s10846-018-0866-9,,120,FALSE,0.12,100,100,50,multi,,TRUE,TRUE,Mona: an Affordable Open-Source Mobile Robot for Education and Research,,,TRUE,0.05,arvin_mona_2019,2017,1.2,0
+EPFL,e-puck,Differential,https://infoscience.epfl.ch/record/135236/files/epuck-robotica2009.pdf,,850,FALSE,0.13,71,71,50,multi,,TRUE,TRUE,"The e-puck, a robot designed for education in engineering",,,TRUE,0.15,mondada_e-puck_2009,2009,3,0
+Putra Uni,AMir,Differential,http://www.ijcee.org/papers/067.pdf,,100,TRUE,0.15,60,73,47,multi,,FALSE,TRUE,Development of a Miniature Robot for Swarm Robotic Application,,,,0.01,arvin_development_2009,2009,2,0
+Clearpath,TurtleBot 3,Differential,https://www.turtlebot.com/turtlebot3/,,850,FALSE,0.22,180,140,190,single,1,TRUE,TRUE,TURTLEBOT 3 AS A ROBOTICS EDUCATION PLATFORM paper,,,TRUE,1,turtlebot3_turtlebot3_2024,,2.5,15
+Stuttgart Uni,Jasmine,Differential,https://journals.sagepub.com/doi/abs/10.1177/1059712309104966,,130,FALSE,0.3,30,30,20,multi,,FALSE,TRUE,Jasmine: Re-embodiment of honeybee aggregation behavior in an artificial micro-robotic system,,,TRUE,0.05,kernbach_re-embodiment_2009,2009,1,0
+Rice,R-one,Differential,https://www.clear.rice.edu/comp651/papers/McLurkinEtAl-rone-IROS2014.pdf,,250,FALSE,0.3,111,111,42,multi,,FALSE,TRUE,A Robot System Design for Low-Cost Multi-Robot Manipulation,,,TRUE,0.3,mclurkin_robot_2014,2014,4,
+Clearpath,TurtleBot 4,Differential,https://clearpathrobotics.com/turtlebot-4/,,2200,FALSE,0.31,340,390,350,single,1,TRUE,TRUE,,,,TRUE,3.9,clearpath_robotics_inc_turtlebot_2022,,4,9
+ASU,Pheeno,Differential,https://ieeexplore.ieee.org/document/7397909,,270,FALSE,0.42,127,127,111,multi,,FALSE,TRUE,"Pheeno, A Versatile Swarm Robotic Research and Education Platform",,,TRUE,0.15,wilson_pheeno_2016,2016,5,
+MIT,Duckytown,Differential,https://ieeexplore.ieee.org/document/7989179,,150,FALSE,0.5,150,150,100,multi,,FALSE,TRUE,"Duckietown: An open, inexpensive and flexible platform for autonomy education and research",,,TRUE,,paull_duckietown_2017,2017,2.5,
+K-Team,Khepera IV,Differential,https://infoscience.epfl.ch/record/211875?ln=en,,3180,FALSE,0.93,141,141,57,multi,,TRUE,TRUE,"The Khepera IV Mobile Robot: Performance Evaluation, Sensory Data and Software Toolbox",,,TRUE,0.566,soares_khepera_2016,,5,
+Clearpath,Jackal,Differential,https://clearpathrobotics.com/jackal-small-unmanned-ground-vehicle/,,21000,FALSE,2,430,510,250,single,1,TRUE,TRUE,,,,FALSE,17,clearpath_robotics_inc_jackal_2020,,4,20
+DDT,Diabolo,Differential,https://shop.directdrive.com/products/diablo-world-s-first-direct-drive-self-balancing-wheeled-leg-robot,,3300,FALSE,2,540,371,270,single,1,TRUE,TRUE,,,,FALSE,22.9,directdrivetech_diablo_2024,,4,80
+Bitcraze,Crazyflies,Airborne,https://www.bitcraze.io/papers/giernacki_draft_crazyflie2.0.pdf,,225,FALSE,1,92,92,29,multi,,TRUE,TRUE,Crazyflie 2.0 Quadrotor as a Platform for Research and Education in Robotics and Control Engineering,2,2,,0.03,giernacki_crazyflie_2017,,0.1166666667,
+UPenn,GRASP-Quad,Airborne,https://ieeexplore.ieee.org/document/7762111,,1800,TRUE,4.5,250,250,100,single,1,FALSE,TRUE,"Estimation, control, and planning for aggressive flight with a small quadrotor with a single camera and imu",,,,0.25,loianno_estimation_2017,,,
+UZH,RPG-Quad,Airborne,https://arxiv.org/abs/1712.02402,,1500,TRUE,5,250,250,100,single,1,FALSE,TRUE,"Differential flatness of quadrotor dynamics subject to rotor drag for accurate tracking of high-speed trajectories,",,,,0.6,faessler_differential_2017,,,
+MIT,MIT-Quad,Airborne,https://arxiv.org/pdf/1810.01987.pdf,,1200,TRUE,7,260,260,100,single,1,FALSE,TRUE,The Blackbird Dataset: A large-scale dataset for UAV perception in aggressive flight,4,,,1,antonini_blackbird_2018,,,
+UPenn,FLA-Quad,Airborne,https://arxiv.org/abs/1712.02052,,2000,TRUE,20,450,450,200,single,1,FALSE,TRUE,"Fast, autonomous flight in gps-denied and cluttered environments",,,,2.7,mohta_fast_2018,,,
+ETH,ASL-Flight,Airborne,,,3160,FALSE,22,500,500,300,single,1,FALSE,TRUE,Build your own Visual-Inertial drone: A Cost-Effective and Open-Source autonomous drone,,,,,sa_build_2017,,,
+UZH,Agilicious,Airborne,https://arxiv.org/pdf/2307.06100.pdf,,1500,TRUE,36,200,200,100,single,1,FALSE,TRUE,Agilicious: Open-Source and Open-Hardware Agile Quadrotor for Vision-Based Flight,5,,,0.75,foehn_agilicious_2022,,,
+EPFL,Cellulo,Omnidirectional,https://dl.acm.org/doi/10.1145/2909824.3020247,,150,FALSE,0.15,73,80,80,multi,,FALSE,TRUE,Cellulo: Versatile Handheld Robots for Education,,,TRUE,0.18,ozgur_cellulo_2017,2017,6,0
+Lincoln Uni,Colias,Omnidirectional,https://ieeexplore.ieee.org/document/6885771,,40,FALSE,0.35,40,40,40,multi,,FALSE,TRUE,Development of an autonomous micro robot for swarm robotics,0,0,TRUE,0.01,arvin_development_2014,2014,2,0
+Hiwonder,Jetauto,Omnidirectional,https://www.hiwonder.com/products/jetauto?variant=39962923860055,,650,FALSE,0.5,324,659,260,single,1,TRUE,TRUE,,,,FALSE,4,roboworks_mecabot_pro_roboworks_2024,,,
+Hangfa,Compass Q2,Omnidirectional,http://hangfa.com/EN/robot/CompassQ2.html,,3500,FALSE,0.75,430,330,115,single,1,TRUE,TRUE,,,,FALSE,16,hangfa_compass_q2_hangfa_2024,,10,20
+KUKA,youBot,Omnidirectional,https://ieeexplore.ieee.org/document/5980575,,30000,FALSE,0.8,580,380,140,single,1,TRUE,TRUE,KUKA youBot - a mobile manipulator for research and education,,,FALSE,20,bischoff_kuka_2011,,,20
+Clearpath,Ridgeback,Omnidirectional,https://clearpathrobotics.com/ridgeback-indoor-robot-platform/,,50000,FALSE,1.1,790,960,310,single,1,TRUE,TRUE,,,,FALSE,135,clearpath_robotics_inc_ridgeback_2020,,,100
+Hangfa,Navigator Q2,Omnidirectional,http://hangfa.com/EN/robot/NavigatorQ2.html,,20300,FALSE,1.2,520,480,240,single,1,TRUE,TRUE,,,,FALSE,35,hangfa_navigator_q2_hangfa_2024,,10,50
+Clearpath,Dingo-O,Omnidirectional,https://clearpathrobotics.com/dingo-indoor-mobile-robot/,,10000,FALSE,1.3,680,510,111,single,1,TRUE,TRUE,,,,FALSE,13,clearpath_robotics_inc_dingo_2019,,,20
+RoboWorks,Mecabot X,Omnidirectional,https://www.roboworks.net/store/p/mecabot-x,,6000,FALSE,1.32,630,581,203,single,1,TRUE,TRUE,,,,FALSE,20.5,roboworks_mecabot_x_roboworks_2024,,3,60
+RDK,X3,Omnidirectional,https://category.yahboom.net/collections/r-omnidirection/products/rdk-x3-robot?variant=46378068967740,,590,FALSE,1.5,181,236,185,single,1,TRUE,TRUE,,,,,1.93,rdk_x3_rdk_2024,,,
+Agilex,Ranger Mini,Omnidirectional,https://global.agilex.ai/chassis/6,,12400,FALSE,1.5,500,738,338,single,1,TRUE,TRUE,,,,FALSE,64.5,agilex_ranger_mini_agilex_2024,,,
+RoboWorks,Mecabot Pro,Omnidirectional,https://www.roboworks.net/store/p/mecabotpro,,2600,FALSE,1.83,541,581,225,single,1,TRUE,TRUE,,,,FALSE,10.8,roboworks_mecabot_pro_roboworks_2024,,5.5,35
+Clearpath,Boxer,Omnidirectional,https://clearpathrobotics.com/boxer/,,60000,FALSE,2,550,750,340,single,1,TRUE,TRUE,,,,,127,clearpath_robotics_inc_boxer_2022,,8,100
+Festo,Robotino,Omnidirectional,https://ip.festo-didactic.com/InfoPortal/Robotino/Overview/EN/index.html,,8000,FALSE,2.7,450,450,325,single,1,TRUE,TRUE,,,,FALSE,22.8,festo_robotino_festo_2024,,,30
+Lynxmotion,A4WD3,Omnidirectional,https://www.lynxmotion.com/a4wd3-rugged-rovers/,,900,FALSE,1.4,372,374,152,single,1,TRUE,TRUE,,,,,5.55,lynxmotion_a4wd3_lynxmotion_2024,,,
+Cambridge,\textbf{RoboMaster},Omnidirectional,,,689,FALSE,4.45,240,320,200,multi,,TRUE,TRUE,,,,TRUE,3,,2024,,5
+Agilex,Limo,Omnidirectional,https://robosavvy.co.uk/agilex-limo.html,https://global.agilex.ai/pages/limo,3600,FALSE,1,251,220,322,single,1,TRUE,TRUE,,,,FALSE,4.8,agilex_limo_agilex_2024,2024,,
+Husarion,ROSbot 2,Differential,https://store.husarion.com/products/rosbot,,2700,FALSE,1,233,200,143,single,1,TRUE,TRUE,,,,FALSE,2.48,husarion_rosbot_husarion_2024,2024,,
+Saeon,Altino,Ackermann,https://www.saeon.com.au/altino.html,,,FALSE,0.5,,,,,,,FALSE,,,,,,,,,
+Clearpath,TurtleBot 3 Waffle,Differential,https://www.turtlebot.com/turtlebot3/,,2000,FALSE,0.26,310,280,140,single,1,,FALSE,,,,,1.8,,,2,30
+Clearpath,TurtleBot 4 Lite,Differential,https://clearpathrobotics.com/turtlebot-4/,,1300,FALSE,0.31,340,390,190,single,1,,FALSE,,,,,3.3,,,4,9
+Clearpath,Dingo-D,Differential,https://clearpathrobotics.com/dingo-indoor-mobile-robot/,,10000,FALSE,1.3,550,510,111,single,1,,FALSE,,,,,9.1,,,,20
+Middle East Technical Univ.,Kobot,Differential,https://d1wqtxts1xzle7.cloudfront.net/30785248/METU-CENG-TR-2007-05-libre.pdf?1392082994=&response-content-disposition=inline%3B+filename%3DKobot_A_mobile_robot_designed_specifical.pdf&Expires=1710497650&Signature=HujZ7xsEh95yg7gpLTcMCVWoPjq6iJ59gaQ-JytbAODHKqOsIuucCQcE4EV5VuGdVFrfQNI7JcJkUncCbVDY4lwtOkVWUBmsJmPTR8xScV0oV7OwY4A5xNRFp65fqcYpZahuCGyrACDe8ekS1SjGhOgHilfYrWOQgGaJxHeHNIIzklAZ8hpfXMcb0gppcJEt5IMPMbRHsfZgYx0rVEIOdnyTsws468JAAEpF9uqbgRWLDibilO6tbIorQ4CDSZaJpHPn1Zf2T1YLgPHp9ff~BzmQfpqV5I3XEj1VbFCCiXkHxiKNPlPZdtBAg7Kqlinh~X9~7Ed3qc2a7fxGZwoTKg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA,,,FALSE,,,,,multi,,,FALSE,Kobot: A mobile robot designed specifically for swarm robotics research,,,,,,2008,,
+GeorgiaTech,Stretch,Differential,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9811922,,20000,FALSE,,,,,,,,FALSE,"The Design of Stretch: A Compact, Lightweight Mobile Manipulator for Indoor Human Environments",,,,23,,2022,,
+Parrot,Parrot,Airborne,,,,FALSE,15.3,,,,,,,FALSE,,,,,,,,,
+Skydio,Skydio,Airborne,,,,FALSE,15.3,,,,,,,FALSE,,,,,,,,,
+DJI,Matrice 100,Airborne,https://www.dji.com/uk/matrice100,,3500,FALSE,22,500,500,300,single,1,TRUE,FALSE,,,,,2.4,,,,
+,MRS-UAV,Airborne,https://arxiv.org/abs/2008.08050,,,,,,,,single,1,FALSE,FALSE,"The MRS UAV system: Pushing the frontiers of reproducible research, real-world deployment, and education with autonomous unmanned aerial vehicles",,,,,,,,
+Sun Yat-sen Uni,CoFlyers,Airborne,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10342485,,,FALSE,,,,,,,,FALSE,CoFlyers: A Universal Platform for Collective Flying of Swarm Drones,,,,,,,,
+,Tello,Airborne,,,,FALSE,,,,,,,,FALSE,,,,,,,,,
+,Pidrone,Airborne,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593943,,,FALSE,,,,,,,,FALSE,PiDrone: An Autonomous Educational Drone using Raspberry Pi and Python,,,,,,2020,,
+Agilex,Ranger,Omnidirectional,https://global.agilex.ai/chassis/7,,20300,FALSE,2.6,876,1228,520,single,1,TRUE,FALSE,,,,FALSE,100,agilex_ranger_agilex_2024,,,
+RoboWorks,RoboFleet,Omnidirectional,https://www.roboworks.net/store/p/multi-agent-rosbots,,1900,FALSE,,230,270,200,multi,,TRUE,FALSE,,,,FALSE,,,,,
+Auckland Uni,Auckbot,Omnidirectional,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7083984,,,FALSE,,1200,900,400,single,1,,FALSE,Heavy-Duty Omni-Directional Mecanum-Wheeled Robot for Autonomous Navigation,,,,,,2015,,
+Harvard,Kilobot,vibrational,https://ieeexplore.ieee.org/document/6224638,,14,FALSE,0.01,50,50,50,multi,,FALSE,FALSE,,,,TRUE,0.005,,,10,0
+Agilex,Tracer,,,,,FALSE,,,,,,,,FALSE,,,,,,,,,
+Agilex,Cobot,,,,,FALSE,,,,,,,,FALSE,,,,,,,,,
+Husarion,ROSBot XL,,,,,FALSE,,,,,,,,FALSE,,,,,,,,,
+Agilex,Tracer AGV,,,,,FALSE,,,,,,,,FALSE,,,,,,,,,
+,Robotarium,,https://ieeexplore.ieee.org/abstract/document/8960572,,,FALSE,,,,,,,,FALSE,"The Robotarium: Globally Impactful Opportunities, Challenges, and Lessons Learned in Remote-Access, Distributed Control of Multirobot Systems",,,,,,2020,,
+Sony,Toio,Differential,https://www.sony.com/en/SonyInfo/design/stories/toio/,,,,,,,,,,,,,,,,,,,,
+,Zooids,,https://shape.stanford.edu/research/swarm/,,,,,,,,,,,,Zooids: Building Block for Swarm User Interface,,,,,,,,
